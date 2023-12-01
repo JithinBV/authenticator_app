@@ -48,7 +48,7 @@ if authentication_status:
             with st.sidebar:
                 app = option_menu(
                     menu_title="pondering",
-                    options=['Account','Home','Trending','Your Posts','About'],
+                    options=['Account','Trending','Your Posts','About'],
                     default_index=1)
             if app == 'Account':
                 account.app()
