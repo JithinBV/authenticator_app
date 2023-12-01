@@ -61,5 +61,7 @@ if authentication_status:
             if app == 'About':
                 about.app()
         run()
+    authenticator.logout("logout","sidebar")
+
             
     
