@@ -52,8 +52,8 @@ if authentication_status:
                     default_index=1)
             if app == 'Account':
                 account.app()
-            if app == 'home':
-                home.app()
+            #if app == 'home':
+                #home.app()
             if app == 'Trending':
                 trending.app()
             if app == 'Your Posts':
