@@ -2,3 +2,5 @@ pip==22.0.3
 streamlit
 streamlit-authenticator
 streamlit_option_menu
+huggingface_hub
+langchain
